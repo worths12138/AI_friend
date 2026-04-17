@@ -64,8 +64,6 @@ def delete_session(session_name):
     except Exception:
         st.error("删除会话失败")
 st.title("AI Friend")
-st.header("This is a header")
-st.subheader("This is a subheader")
 st.logo("./image/logo1.png")
 #系统提示词
 system_prompt = """
